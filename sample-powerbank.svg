@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1f5f9" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" />
+  <circle cx="90" cy="70" r="95" fill="#ffffff" fill-opacity="0.35" />
+  <circle cx="520" cy="340" r="120" fill="#ffffff" fill-opacity="0.3" />
+  
+      <rect x="230" y="84" width="140" height="192" rx="22" fill="#0f172a" stroke="#334155" stroke-width="5"/>
+      <circle cx="275" cy="126" r="5" fill="#38bdf8"/>
+      <circle cx="292" cy="126" r="5" fill="#38bdf8"/>
+      <circle cx="309" cy="126" r="5" fill="#38bdf8"/>
+      <circle cx="326" cy="126" r="5" fill="#334155"/>
+      <rect x="266" y="218" width="68" height="14" rx="7" fill="#334155"/>
+    
+  <text x="300" y="325" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#0f172a">20000mAh Power Bank</text>
+  <text x="300" y="352" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#64748b">Matte Black · Dual USB</text>
+</svg>

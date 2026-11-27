@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Table Example</title>
+  <style>
+    /* Styling to make the table look clean and modern */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    thead tr {
+      background-color: #009879;
+      color: #ffffff;
+      text-align: left;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      border-bottom: 1px solid #dddddd;
+    }
+
+    tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+
+    tbody tr:hover {
+      background-color: #f1f7f5;
+    }
+
+    tfoot tr {
+      font-weight: bold;
+      background-color: #fafafa;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Product Name</th>
+        <th>Category</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Wireless Mouse</td>
+        <td>Electronics</td>
+        <td>$25.00</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Mechanical Keyboard</td>
+        <td>Electronics</td>
+        <td>$80.00</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Desk Pad</td>
+        <td>Accessories</td>
+        <td>$15.00</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Total</td>
+        <td>$120.00</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>

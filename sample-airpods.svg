@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff" />
+      <stop offset="100%" stop-color="#e0e7ff" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" />
+  <circle cx="90" cy="70" r="95" fill="#ffffff" fill-opacity="0.35" />
+  <circle cx="520" cy="340" r="120" fill="#ffffff" fill-opacity="0.3" />
+  
+      <rect x="215" y="105" width="170" height="150" rx="38" fill="#ffffff" stroke="#c7d2fe" stroke-width="6"/>
+      <line x1="218" y1="158" x2="382" y2="158" stroke="#cbd5e1" stroke-width="4"/>
+      <rect x="278" y="150" width="44" height="14" rx="7" fill="#e2e8f0"/>
+      <circle cx="300" cy="196" r="5" fill="#22c55e"/>
+    
+  <text x="300" y="325" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#4f46e5">Wireless Earbuds</text>
+  <text x="300" y="352" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#64748b">White Charging Case</text>
+</svg>

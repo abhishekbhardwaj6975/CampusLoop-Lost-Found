@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# CampusLoop-Lost-Found
-=======
 # CampusLoop – Smart Lost & Found Management System
 
 A full-stack college campus **Lost & Found Management System** (B.Tech CSE Mini Project) built with **React, Vite, Tailwind CSS, Node.js, Express, and SQLite**. Students can report lost or found items with photos, discover potential matches via a **Smart Matching Algorithm**, receive real-time in-app notifications, and claim items through an **admin-verified handover workflow**.
@@ -201,4 +198,3 @@ Open **http://localhost:5173** in your browser!
 - `PATCH /api/notifications/:id/read` — Mark notification as read
 - `PATCH /api/notifications/read-all` — Mark all notifications as read
 
->>>>>>> 13357a7 (feat: Add CampusLoop - Smart Lost & Found Management System codebase)

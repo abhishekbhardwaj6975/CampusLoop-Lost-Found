@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff" />
+      <stop offset="100%" stop-color="#dbeafe" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" />
+  <circle cx="90" cy="70" r="95" fill="#ffffff" fill-opacity="0.35" />
+  <circle cx="520" cy="340" r="120" fill="#ffffff" fill-opacity="0.3" />
+  
+      <path d="M275 55 L300 105 L325 55" fill="none" stroke="#1d4ed8" stroke-width="10" stroke-linecap="round"/>
+      <rect x="200" y="105" width="200" height="155" rx="16" fill="#ffffff" stroke="#93c5fd" stroke-width="5"/>
+      <rect x="200" y="105" width="200" height="36" rx="14" fill="#1d4ed8"/>
+      <circle cx="252" cy="190" r="28" fill="#dbeafe"/>
+      <rect x="295" y="168" width="84" height="12" rx="6" fill="#334155"/>
+      <rect x="295" y="190" width="64" height="10" rx="5" fill="#94a3b8"/>
+      <rect x="295" y="210" width="76" height="10" rx="5" fill="#cbd5e1"/>
+    
+  <text x="300" y="325" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#2563eb">Campus ID Card</text>
+  <text x="300" y="352" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#64748b">B.Tech CSE · Lanyard</text>
+</svg>

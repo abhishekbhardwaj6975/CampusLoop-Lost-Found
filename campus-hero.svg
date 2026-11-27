@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="45%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="78%" cy="22%" r="42%">
+      <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lawn" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#sunGlow)"/>
+
+  <!-- Distant hills / skyline -->
+  <path d="M0 560 Q320 470 680 540 T1600 500 L1600 900 L0 900 Z" fill="#1e293b" opacity="0.55"/>
+
+  <!-- Academic Main Building (Center) -->
+  <g fill="#0f172a" opacity="0.88">
+    <rect x="460" y="340" width="680" height="270" rx="8"/>
+    <polygon points="430,345 800,220 1170,345" fill="#1e293b"/>
+    <!-- Clock Tower -->
+    <rect x="752" y="145" width="96" height="190" rx="4" fill="#1e293b"/>
+    <polygon points="738,148 800,82 862,148" fill="#312e81"/>
+    <circle cx="800" cy="205" r="24" fill="#e0e7ff" opacity="0.9"/>
+    <line x1="800" y1="205" x2="800" y2="190" stroke="#1e1b4b" stroke-width="3" stroke-linecap="round"/>
+    <line x1="800" y1="205" x2="812" y2="205" stroke="#1e1b4b" stroke-width="3" stroke-linecap="round"/>
+    <!-- Left & Right Wings -->
+    <rect x="130" y="400" width="320" height="210" rx="6" fill="#1e293b"/>
+    <rect x="1150" y="390" width="330" height="220" rx="6" fill="#1e293b"/>
+  </g>
+
+  <!-- Warm glowing campus windows -->
+  <g fill="#fde68a" opacity="0.72">
+    <rect x="500" y="380" width="34" height="46" rx="4"/>
+    <rect x="554" y="380" width="34" height="46" rx="4"/>
+    <rect x="608" y="380" width="34" height="46" rx="4"/>
+    <rect x="662" y="380" width="34" height="46" rx="4"/>
+    <rect x="904" y="380" width="34" height="46" rx="4"/>
+    <rect x="958" y="380" width="34" height="46" rx="4"/>
+    <rect x="1012" y="380" width="34" height="46" rx="4"/>
+    <rect x="1066" y="380" width="34" height="46" rx="4"/>
+
+    <rect x="500" y="454" width="34" height="46" rx="4"/>
+    <rect x="554" y="454" width="34" height="46" rx="4"/>
+    <rect x="608" y="454" width="34" height="46" rx="4"/>
+    <rect x="958" y="454" width="34" height="46" rx="4"/>
+    <rect x="1012" y="454" width="34" height="46" rx="4"/>
+    <rect x="1066" y="454" width="34" height="46" rx="4"/>
+
+    <rect x="175" y="438" width="28" height="38" rx="3" opacity="0.6"/>
+    <rect x="225" y="438" width="28" height="38" rx="3" opacity="0.6"/>
+    <rect x="275" y="438" width="28" height="38" rx="3" opacity="0.6"/>
+    <rect x="325" y="438" width="28" height="38" rx="3" opacity="0.6"/>
+
+    <rect x="1200" y="432" width="28" height="38" rx="3" opacity="0.6"/>
+    <rect x="1250" y="432" width="28" height="38" rx="3" opacity="0.6"/>
+    <rect x="1300" y="432" width="28" height="38" rx="3" opacity="0.6"/>
+    <rect x="1350" y="432" width="28" height="38" rx="3" opacity="0.6"/>
+  </g>
+
+  <!-- Central arched entrance -->
+  <path d="M742 610 L742 480 Q800 425 858 480 L858 610 Z" fill="#312e81"/>
+  <path d="M760 610 L760 492 Q800 455 840 492 L840 610 Z" fill="#fef08a" opacity="0.45"/>
+
+  <!-- Campus Lawn & Central Walkway -->
+  <rect x="0" y="600" width="1600" height="300" fill="url(#lawn)" opacity="0.92"/>
+  <polygon points="735,600 865,600 1050,900 550,900" fill="#cbd5e1" opacity="0.18"/>
+
+  <!-- Trees framing the quad -->
+  <g fill="#064e3b" opacity="0.85">
+    <circle cx="120" cy="560" r="85"/>
+    <circle cx="215" cy="585" r="65"/>
+    <circle cx="410" cy="575" r="60"/>
+    <circle cx="1195" cy="575" r="62"/>
+    <circle cx="1390" cy="575" r="78"/>
+    <circle cx="1495" cy="555" r="90"/>
+  </g>
+
+  <!-- Subtle architectural grid lines -->
+  <g stroke="#818cf8" stroke-opacity="0.12" stroke-width="1">
+    <line x1="0" y1="200" x2="1600" y2="200"/>
+    <line x1="0" y1="400" x2="1600" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="900"/>
+    <line x1="1200" y1="0" x2="1200" y2="900"/>
+  </g>
+</svg>
+

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4" />
+      <stop offset="100%" stop-color="#dcfce7" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" />
+  <circle cx="90" cy="70" r="95" fill="#ffffff" fill-opacity="0.35" />
+  <circle cx="520" cy="340" r="120" fill="#ffffff" fill-opacity="0.3" />
+  
+      <rect x="208" y="88" width="184" height="186" rx="12" fill="#166534" stroke="#14532d" stroke-width="4"/>
+      <rect x="208" y="88" width="28" height="186" rx="6" fill="#14532d"/>
+      <rect x="252" y="116" width="118" height="22" rx="6" fill="#dcfce7"/>
+      <rect x="252" y="150" width="90" height="12" rx="6" fill="#86efac"/>
+      <rect x="252" y="174" width="104" height="12" rx="6" fill="#86efac"/>
+      <rect x="252" y="216" width="60" height="28" rx="6" fill="#22c55e"/>
+    
+  <text x="300" y="325" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#15803d">DSA Textbook</text>
+  <text x="300" y="352" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#64748b">Cormen · Highlighted Notes</text>
+</svg>
